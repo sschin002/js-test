@@ -27,3 +27,4 @@ if((x=1)|| (y=3)){
 if (x!=2){
     console.log("! operator tested")
 }
+console.log("test for git push");

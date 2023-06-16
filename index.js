@@ -41,3 +41,6 @@ function greet(name){
     alert('hello, ${name}');
 }
 greet("sachin");
+const add =(a,b)=>{
+    console.log(a+b);
+}

@@ -34,3 +34,10 @@ else{
 }
 let res = x===1? "x is 1": x===2? "x is not 2": "x is not 1 or 2";
 console.log(res);
+for (let i= 0; i<5; i++){
+    console.log(i);
+}
+function greet(name){
+    alert('hello, ${name}');
+}
+greet("sachin");

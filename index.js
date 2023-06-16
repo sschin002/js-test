@@ -38,9 +38,11 @@ for (let i= 0; i<5; i++){
     console.log(i);
 }
 function greet(name){
-    alert('hello, ${name}');
+    alert(`hello, ${name}`);
+    console.log(`hello ${name}`);
 }
 greet("sachin");
+
 const add =(a,b)=>{
     console.log(a+b);
 }

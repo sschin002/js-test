@@ -1,0 +1,5 @@
+ROADMAP:
+object
+array
+pagination
+destructing model(using rest)

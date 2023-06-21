@@ -3,3 +3,5 @@ object
 array
 pagination
 destructing model(using rest)
+adding module uppercase
+opening a file

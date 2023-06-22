@@ -7,24 +7,18 @@ const transporter = nodeMailer.createTransport({
     secure: false,
     auth: {
         user:'sschin920@gmail.com',
-        pass :'mkneceqmxbyymmqb',
+        pass :'',
     }
 })
 const mailOptions = {
     from: 'sschin920@gmail.com',
-    to: 'sachinshrestha630@gmail.com',
+    to: 'gyalwanglama123@gmail.com',
     subject: 'Sending Email using Node.js',
-    text: 'That was not easy!'
-  };
+    text: 'ksre aayena!'
+};
   
 const mailer =(mailOption,transporter) => {
-    transporter.sendMail(mailOptions,(err,info)=> {
-            if (err){
-                console.log(err);
-            }else {
-                console.log(info);
-            }
-            });
-    };
+    transporter.sendMail(mailOptions);
+};
 mailer(mailOptions, transporter);
 

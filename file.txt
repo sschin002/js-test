@@ -5,3 +5,5 @@ pagination
 destructing model(using rest)
 adding module uppercase
 opening a file
+sending mail
+callback function

@@ -19,5 +19,4 @@ async function getWeather() {
   const data =await fetchWeatherData();
   console.log(data);
 }
-
 getWeather();

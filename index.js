@@ -82,8 +82,8 @@
 // const{password, ...rest}=user;
 // console.log({"1":rest});
 
-const arr=["sachin","shrestha","gachhe"];
-const[second, ...other]=arr;
+// const arr=["sachin","shrestha","gachhe"];
+// const[second, ...other]=arr;
 
-console.log(other);
-console.log(second,other);
+// console.log(other);
+// console.log(second,other);
